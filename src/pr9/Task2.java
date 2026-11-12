@@ -12,7 +12,7 @@ public class Task2 {
     }
 
     private static int partition(Student[] arr, int low, int high, Comparator<Student> cmp) {
-        Student pivot = arr[high]; // опорный — последний элемент
+        Student pivot = arr[high]; // опорный — последний элемет
         int i = low - 1;
 
         for (int j = low; j < high; j++) {
@@ -32,11 +32,11 @@ public class Task2 {
 
     public static void main(String[] args) {
         Student[] students = {
-                new Student("Egor", 5, 4.5),
-                new Student("Nastya", 2, 3.8),
-                new Student("Liza", 8, 4.9),
-                new Student("Oleg", 1, 3.2),
-                new Student("Insaf", 4, 4.1)
+                new Student(5, "Egor",  4.5),
+                new Student(2, "Nastya", 3.8),
+                new Student(8, "Liza", 4.9),
+                new Student(1, "Oleg", 3.2),
+                new Student(4, "Insaf", 4.1)
         };
 
         System.out.println("До сортировки:");

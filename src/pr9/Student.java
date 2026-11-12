@@ -5,9 +5,9 @@ class Student implements Comparable<Student> {
     private int iDNumber;
     private double gpa;
 
-    public Student(String name, int iDNumber, double gpa) {
-        this.name = name;
+    public Student(int iDNumber, String name, double gpa) {
         this.iDNumber = iDNumber;
+        this.name = name;
         this.gpa = gpa;
     }
 

@@ -49,15 +49,15 @@ public class MergeTwoLists {
                 new Student("Egor", "Trifanov", "IT", 2, "KVBO")
         };
 
-        System.out.println("--- Первый список ---");
+        System.out.println("Первый список");
         for (Student s : list1) System.out.println(s);
 
-        System.out.println("\n--- Второй список ---");
+        System.out.println("\nВторой список");
         for (Student s : list2) System.out.println(s);
 
         Student[] mergedList = mergeTwoSortedLists(list1, list2);
 
-        System.out.println("\n--- Объединенный отсортированный список ---");
+        System.out.println("\nОбъединенный отсортированный список");
         for (Student s : mergedList) System.out.println(s);
     }
 
